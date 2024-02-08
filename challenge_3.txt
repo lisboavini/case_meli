@@ -1,0 +1,28 @@
+Analytics Engineer
+
+Objetivo:
+Realizar uma análise da oferta/vitrine de opções de produtos que respondem a diferentes pesquisas no site 
+Mercadolibre.com.ar  utilizando a linguagem Python e as bibliotecas que julgar necessárias.
+
+1) Varra uma lista de mais de 150 itens de ids no serviço público:
+https://api.mercadolibre.com/sites/MLA/search?q=chromecast&limit=50#json 
+Neste caso em particular e apenas como exemplo, são resultados para a pesquisa "chromecast", mas você terá que 
+escolher outros termos para o experimento que permitam enriquecer a análise em um painel hipotético (por exemplo, 
+Google Home, Apple TV, Amazon Fire TV, ou similar para poder comparar dispositivos portáteis, ou escolher 3 outros 
+que lhe interessam para comparar). 
+
+2) Para cada resultado, realizar o GET correspondente por Item_Id ao recurso público:
+https://api.mercadolibre.com/items/{Item_Id} 
+
+3) Escreva os resultados:
+Escreva os resultados em um arquivo simples delimitado por vírgulas, desnormalizando o JSON obtido na etapa 
+anterior, em quantos campos forem necessários para salvar as variáveis que você está interessado em modelar.
+
+4) Desenvolver o projeto e a documentação da solução:
+Apresente uma solução para esse cenário elaborando um diagrama de alto nível da solução e documentando as etapas 
+necessárias para atingir esse objetivo.
+
+5) Análise exploratória:
+Realizar uma análise exploratória com as variáveis selecionadas para o modelo através de um notebook jupyter.
+
+Os resultados das análises podem ser publicados publicamente no GitHub. Por favor, forneça o seguinte link:
