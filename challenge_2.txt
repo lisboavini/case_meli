@@ -1,0 +1,53 @@
+Analytics Engineer
+
+Pontos a avaliar :
+- Interpretação do slogan 
+- Ordem do código e comentários 
+- Consultas simples e efetivas 
+- Qualidade do produto 
+- Se você pensar em outro ponto que pode adicionar a ele, sinta-se livre para adicioná-lo e nos dizer o que é 
+e por que você adicionou.
+
+Objetivo:
+Com base na seguinte necessidade, é necessário desenhar um DER que responda ao modelo de negócio. 
+Em seguida, diferentes perguntas devem ser respondidas usando SQL. 
+
+Descrição da necessidade:
+Tendo em conta o modelo de e-commerce que gerimos, temos algumas entidades básicas que queremos representar: 
+Cliente (Customer), Ordem (Order), Item (Item) e Categoria (Category). 
+- Cliente: Esta é a entidade onde todos os nossos usuários estão localizados, sejam eles Compradores ou Vendedores 
+do Site. Os principais atributos são e-mail, nome, sobrenome, sexo, endereço, data de nascimento, telefone, 
+entre outros. 
+- Item: Esta é a entidade onde os produtos publicados em nosso marketplace estão localizados. O volume é muito grande 
+devido ao fato de que você pode encontrar todos os produtos que foram publicados em algum momento. Por meio do 
+status do item ou data de cancelamento, é possível detectar itens ativos no marketplace. 
+- Categoria: Esta é a entidade onde está localizada a descrição de cada categoria com seu respectivo caminho. 
+Cada item tem uma categoria associada a ele.
+- Ordem: A ordem é a entidade que reflete as transações geradas dentro do site (cada compra é uma ordem). Neste caso, 
+não teremos um fluxo de carrinho de compras, portanto, cada item que for vendido será refletido em um pedido, 
+independentemente da quantidade que foi comprada.
+
+Fluxo de Compras:
+- Um usuário entra no site do Mercado Livre para comprar dois dispositivos móveis idênticos. 
+- Você pesquisa através das categorias Tecnologia > Celulares &Celulares > Celulares &Smartphones e, finalmente, 
+encontra o produto que precisa comprar. 
+- Prossiga com a compra das mesmas duas unidades selecionadas, o que gera uma ordem de compra.
+
+Para resolver:
+- 1. Listar usuários que fazem aniversário hoje (DATENOW) cujo número de vendas em janeiro de 2020 é superior a 1500. 
+- 2. Para cada mês de 2020, são solicitados os 5 principais usuários que mais venderam ($) na categoria Celulares. 
+O mês e o ano de análise, nome e sobrenome do vendedor, número de vendas realizadas, número de produtos vendidos e 
+o  valor   total transacionado são necessários. 
+-3. É solicitado preencher uma nova tabela com o preço e o status dos Itens no final do dia. Tenha em mente que 
+ele deve ser reprocessável. Vale ressaltar que na tabela Item, teremos apenas o último estado informado pela PK 
+definida. (Pode  ser resolvido via StoredProcedure) 
+
+Lista de pendências de tarefas:
+Com base na situação levantada, pedimos-lhe: 
+- Projete um modelo de dados DER que responda a cada uma das perguntas mencionadas acima.
+- Gere o script DDL para a criação de cada uma das tabelas representadas no  DER. Envie-o com o nome 
+"create_tables.sql". 
+- Gere o código SQL para responder a cada uma das situações mencionadas acima sobre o modelo projetado. Nome 
+solicitado: "respuestas_negocio.sql"
+
+Os resultados das análises podem ser publicados publicamente no GitHub. Por favor, forneça o seguinte link:
