@@ -1,0 +1,39 @@
+Analytics Engineer
+
+Objetivo:
+Crie um dashboard usando uma ferramenta de visualização de dados, em um dos seguintes players: MS Power BI, 
+Tableau ou Looker. Como escopo, é necessário analisar a evolução, crescimento da internet, usuários, assinantes, 
+etc. na Argentina e suas causas.
+
+Fonte de dados:
+Os dados a serem obtidos são publicados no Banco de Dados Mundial.
+- https://www.worldbank.org/
+É permitido listar todos os tipos de fontes oficiais publicadas.
+
+Alcance esperado:
+- Gere análises visuais e conclusões.
+- Publicar resultados no Tableau Public
+- Detalhar todas as fontes utilizadas com suas referências na web.
+- Inclua uma conclusão/insight baseado em informações.
+
+Pontos a avaliar:
+- Serão avaliados o projeto, o prazo de entrega e a capacidade analítica.
+- Visualização eficaz, funcionalidade equilibrada e design
+- Análise correta dos dados
+
+Os resultados das análises podem ser publicados publicamente no GitHub. Por favor, forneça o seguinte link:
+
+LINKS DATA WORLD BANK:
+https://data.worldbank.org/indicator/SP.POP.1564.TO.ZS
+https://data.worldbank.org/indicator/SP.POP.0014.TO.ZS
+https://data.worldbank.org/indicator/SP.POP.65UP.TO.ZS
+https://data.worldbank.org/indicator/SP.RUR.TOTL
+https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS
+https://data.worldbank.org/indicator/SP.POP.TOTL
+https://data.worldbank.org/indicator/SP.POP.GROW
+https://data.worldbank.org/indicator/SP.URB.TOTL
+https://data.worldbank.org/indicator/IT.CEL.SETS
+https://data.worldbank.org/indicator/IT.NET.USER.ZS
+https://data.worldbank.org/indicator/IT.NET.SECR.P6
+
+
