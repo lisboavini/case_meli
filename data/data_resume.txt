@@ -1,0 +1,13 @@
+Data Source Wolrd Bank
+
+https://data.worldbank.org/indicator/SP.POP.1564.TO.ZS
+https://data.worldbank.org/indicator/SP.POP.0014.TO.ZS
+https://data.worldbank.org/indicator/SP.POP.65UP.TO.ZS
+https://data.worldbank.org/indicator/SP.RUR.TOTL
+https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS
+https://data.worldbank.org/indicator/SP.POP.TOTL
+https://data.worldbank.org/indicator/SP.POP.GROW
+https://data.worldbank.org/indicator/SP.URB.TOTL
+https://data.worldbank.org/indicator/IT.CEL.SETS
+https://data.worldbank.org/indicator/IT.NET.USER.ZS
+https://data.worldbank.org/indicator/IT.NET.SECR.P6
